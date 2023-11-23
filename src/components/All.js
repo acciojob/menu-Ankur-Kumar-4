@@ -48,9 +48,9 @@ const All = (props) => {
       <div>
         <ul className="links">
           <li className={highlightLinks==="all" && "hg"} onClick={filterAll}>All</li>
-          <li className={highlightLinks==="breakfast" && "hg"} onClick={filterBreakfast}>Breakfast</li>
-          <li className={highlightLinks==="lunch" && "hg"} onClick={filterLunch}>Lunch</li>
-          <li className={highlightLinks==="shakes" && "hg"} onClick={filterShakes}>Shakes</li>
+          <li id="#filter-btn-1" className={highlightLinks==="breakfast" && "hg"} onClick={filterBreakfast}>Breakfast</li>
+          <li id="filter-btn-2" className={highlightLinks==="lunch" && "hg"} onClick={filterLunch}>Lunch</li>
+          <li id="#filter-btn-1" className={highlightLinks==="shakes" && "hg"} onClick={filterShakes}>Shakes</li>
         </ul>
       </div>
 
